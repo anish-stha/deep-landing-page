@@ -22,6 +22,9 @@
     <link href="demo/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="css/parallax.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/underwater.css" rel="stylesheet">
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/buttons.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -68,47 +71,81 @@
         </div>
       </div>
     </nav>
-
     <header>
+    <div id = "main-bg-container">
+          <div class='main-bg'>
+            <div class="overlaying-tint">
+              <div id="background-wrap">
+                <div class="bubble x1"></div>
+                <div class="bubble x2"></div>
+                <div class="bubble x3"></div>
+                <div class="bubble x4"></div>
+                <div class="bubble x5"></div>
+                <div class="bubble x6"></div>
+                <div class="bubble x7"></div>
+                <div class="bubble x8"></div>
+                <div class="bubble x9"></div>
+                <div class="bubble x10"></div>
+              </div>
 
-      <div class='main-bg'>
-        <div class="overlaying-tint">
-          <div id="background-wrap">
-            <div class="bubble x1"></div>
-            <div class="bubble x2"></div>
-            <div class="bubble x3"></div>
-            <div class="bubble x4"></div>
-            <div class="bubble x5"></div>
-            <div class="bubble x6"></div>
-            <div class="bubble x7"></div>
-            <div class="bubble x8"></div>
-            <div class="bubble x9"></div>
-            <div class="bubble x10"></div>
+              <!-- <ul class="bubbles">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul> -->
+            </div>
+            <div class = "wave-box">
+              <div class="ocean">
+                <div class="wave"></div>
+                <div class="wave"></div>
+              </div>
+            </div>
+            <div class="overlaying-text">
+              <div class="text-holder">
+               <h2>Dive </h2> <h1> Deep </h1> <h2>Into Data</h2>
+               <p>Data entry and exploration platform</p>
+               <a type="button" class="btn btn-outline btn-lg" href='#about'>Create an account</a>
+             </div>
+            </div>
+              <!-- <p>Create Projects and design analysis. Collect and Collate data sources. Structure and Curate data.
+                Summarize and jointly interpret results. Create Projects and designing analysis.</p> -->
+            </div>
           </div>
-          <!-- <ul class="bubbles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul> -->
+        </header>
+
+        <div class="deep-intro">
+              <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-heading deep-intro-text"> A Data Analyzing Platform</h2>
+                <hr class="primary my-4">
+                <p class="mb-4">A robust, adaptive This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph</p>
+              </div>
+          </div>
+            <div class="relative-slider-container">
+                <div class='slider'>
+                  <div class='slide1'></div>
+                  <div class='slide2'></div>
+                  <div class='slide3'></div>
+                </div>
         </div>
-        <div class="overlaying-text">
-          <div class="text-holder">
-           <h2>Dive </h2> <h1> Deep </h1> <h2>Into Data</h2>
-           <p>Data entry and exploration platform</p>
-           <a type="button" class="btn btn-outline btn-lg" href='#about'>Create an account</a>
-         </div>
-        </div>
-          <!-- <p>Create Projects and design analysis. Collect and Collate data sources. Structure and Curate data.
-            Summarize and jointly interpret results. Create Projects and designing analysis.</p> -->
-        </div>
+
+
+    <!-- <header style="height: 100%;">
+
       <div class="relative-slider-container">
-      <div class="abs-slider-container">
-      <div class='o-sliderContainer' id="pbSliderWrap0" style="margin-top:0;">
+        <div class="abs-slider-container">
+          <div class='o-sliderContainer' id="pbSliderWrap0" style="margin-top:0;">
 
-
-        <!-- <div id="slideshow">
+        <div id = "slideshow">
+        <div id="cf">
+          <img src="images/6.jpg" />
+          <img src="images/1.jpg" />
+          <img src="images/nderwater.jpg" />
+          <img src="images/Underwater.jpg" />
+        </div>
+      </div>
+        <div id="slideshow">
            <div>
              <img src="images/6.jpg">
            </div>
@@ -120,7 +157,7 @@
            </div>
         </div> -->
 
-
+<!--
         <div class='o-slider' id='pbSlider0'>
           <div class="o-slider--item" data-image="images/6.jpg">
             <div class="o-slider-textWrap">
@@ -182,8 +219,17 @@
       <div style="clear:both;"></div>
     </div>
   </div>
-    </header>
+    </header> -->
 
+    <section class="portfolio-container">
+        <div class="container padding-0" >
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="section-heading">Our Partners</h1>
+              <hr class="my-4">
+            </div>
+          </div>
+        </div>
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters ">
@@ -280,6 +326,8 @@
         </div>
       </div>
     </section>
+
+  </section>
     <section style="padding-top:10px; padding-bottom:10px;">
       <div class="container">
         <div class="row">
@@ -738,6 +786,8 @@
         </div>
       </div>
     </div>
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="demo/jquery/jquery.min.js"></script>
     <script src="demo/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -748,10 +798,29 @@
     <script src="demo/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
+    <script src="js/waves.js"></script>
     <script src="js/creative.min.js"></script>
     <script src='js/hammer.min.js'></script>
     <script src='js/slider.js'></script>
     <script>
+    window.onresize = function(event) {
+      var x=$(window).width();
+      var y=$(window).height();
+      a = y*.8
+      $("#main-bg-container").css('width', x + 'px');
+      $("#main-bg-container").css('height', y + 'px');
+      $(".relative-slider-container").css('height', a + 'px');
+    }
+    $(document).ready(function(){
+        var x=$(window).width();
+        var y=$(window).height();
+        a = y*.8
+        $("#main-bg-container").css('width', x + 'px');
+        $("#main-bg-container").css('height', y + 'px');
+        $(".relative-slider-container").css('height', a + 'px');
+    });
+    </script>
+    <!-- <script>
     $('#pbSlider0').pbTouchSlider({
       slider_Wrap: '#pbSliderWrap0',
       slider_Item_Width : 100,
@@ -793,9 +862,7 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
 }, 3000);
-
-
-    </script>
+    </script> -->
   </body>
 
 </html>
