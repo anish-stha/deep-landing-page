@@ -29,7 +29,6 @@ hr {
 hr.light {
   border-color: #fff; }
 
-
 hr.primary {
   border-color: #034949; }
 
@@ -66,6 +65,11 @@ section {
 
 .more-padding{
   padding: 8rem 0;
+}
+
+.no-padding{
+  padding: 0rem 0;
+  min-height: 480px;
 }
 
 .section-heading {
@@ -203,7 +207,7 @@ header.masthead {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(3, 73, 73 0.9);
+    background: rgba(3,73,73, 0.9);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -305,6 +309,10 @@ header.masthead {
   opacity: 0.5;
 }
 
+.more-tint {
+  opacity: .9;
+}
+
 
 .overlaying-text {
   text-align:center;
@@ -315,6 +323,10 @@ header.masthead {
    -ms-transform: translate(-50%, -50%)
 }
 
+.overlying-inside-center{
+  margin-top:5%;
+
+}
 .overlaying-text .text-holder h2 ,h1{
 
   color: white;
@@ -899,7 +911,7 @@ pm-0{
   background-size: cover;
   background-attachment: fixed;
   padding: 120px;
-  z-index: -1;
+  z-index: 2;
 }
 
 .container-img1{
@@ -907,7 +919,7 @@ pm-0{
 }
 
 .container-img2{
-  background-image: url("../images/deep.jpg");
+  background-image: url("../images/boat.png");
 }
 
 

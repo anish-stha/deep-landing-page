@@ -22,6 +22,7 @@
     <link href="demo/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="css/parallax.css" rel="stylesheet">
     <link href="css/slider.css" rel="stylesheet">
     <link href="css/underwater.css" rel="stylesheet">
@@ -114,6 +115,7 @@
             </div>
           </div>
         </header>
+
 
         <div class="deep-intro blending-background">
               <div class="col-lg-8 mx-auto text-center">
@@ -491,14 +493,16 @@
       </div>
     </section>
 
-    <section class="bg-primary container-img1 more-padding" id="about" >
+    <section class="bg-primary  more-padding container-img1" id="about" style="min-height: 480px;" >
 
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Ready to go DEEP?</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">Read the walkthrough</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Coming Soon</a>
-          </div>
+      <div class="col-lg-8 mx-auto text-center " style="z-index: 2;">
+        <h2 class="section-heading text-white">Ready to go DEEP?</h2>
+        <hr class="light my-4">
+        <p class="text-faded mb-4">Read the walkthrough</p>
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#main-bg-container" style="z-index:3;">Coming Soon</a>
+        </div>
+
+        <div class="overlaying-tint more-tint"></div>
     </section>
 
 
@@ -554,11 +558,13 @@
         </div>
       </section>
 
-    <section id="contact" class="bg-primary more-padding container-img2" >
+    <section id="contact" class="bg-primary no-padding container-img2" >
+      <div class="overlaying-tint more-tint">
+      <div class="overlying-inside-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center text-white">
-            <h2 class="section-heading">Have a Query? Contact Us</h2>
+            <h2 class="section-heading text-white">Have a Query? Contact Us</h2>
             <hr class="my-4">
             <p class="mb-5">Contact us here</p>
           </div>
@@ -576,7 +582,10 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
     </section>
+
 
 
     <!-- Modal 1 -->
@@ -798,6 +807,7 @@
     <script src="js/creative.min.js"></script>
     <script src='js/hammer.min.js'></script>
     <script src='js/slider.js'></script>
+
     <script>
     window.onresize = function(event) {
       var x=$(window).width();
