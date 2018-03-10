@@ -19,20 +19,20 @@
 
 }
 .slide1 {
-  background: url("../images/ui-ours1.png")no-repeat center;
+  background: url("../images/ui1.png")no-repeat center;
       background-size: contain;
     animation:fade 8s infinite;
 -webkit-animation:fade 8s infinite;
 
 }
 .slide2 {
-  background: url("../images/ui-ours2.png")no-repeat center;
+  background: url("../images/ui2.png")no-repeat center;
       background-size: contain;
     animation:fade2 8s infinite;
 -webkit-animation:fade2 8s infinite;
 }
 .slide3 {
-    background: url("../images/ui-ours3.png")no-repeat center;
+    background: url("../images/ui3.png")no-repeat center;
       background-size: contain;
     animation:fade3 8s infinite;
 -webkit-animation:fade3 8s infinite;

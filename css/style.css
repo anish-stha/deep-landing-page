@@ -92,24 +92,6 @@ h1 {
   display: inline-block;
   margin: 0 1%; }
 
-.relative-slider-container{
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  margin-bottom: 120px;
-}
-
-.abs-slider-container{
-  position:absolute;
-  width: 100%;
-  height: auto;
-  margin: auto;
-  top: 5%;
-  border-width: 5px;
-  border-color: #f00;
-
-}
 
 .o-sliderContainer {
   -moz-box-shadow: 0 0 10px 7px rgba(15,16, 17, 0.2) ;

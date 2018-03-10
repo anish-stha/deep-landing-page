@@ -51,11 +51,15 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
+.bold{
+  font-weight: bold;
+}
+
 .bg-primary {
   background-color: #034949 !important; }
 
 .bg-dark {
-  background-color: #034949 !important; }
+  background-color: #F3F3F3 !important; }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
@@ -67,10 +71,16 @@ section {
   padding: 8rem 0;
 }
 
+.medium-padding{
+  padding: 6rem 0;
+}
+
 .no-padding{
   padding: 0rem 0;
   min-height: 480px;
 }
+
+
 
 .section-heading {
   margin-top: 0;
@@ -288,6 +298,33 @@ header.masthead {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.curve{
+  background-size: 3000px 108px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  content: '';
+  display: block;
+  left: 0;
+  position: relative;
+  width: 100%;
+  visibility: visible;
+  z-index: 10;
+  height: 108px;
+}
+
+.curve01{
+  background-image: url("../images/curve01.svg");
+}
+
+.curve02{
+  background-image: url("../images/curve02.svg");
+  top:-108px;
+}
+
+.curve03{
+  background-image: url("../images/curve03.svg");
 }
 
 .parallax-bg{
@@ -869,19 +906,43 @@ pm-0{
   position: relative;
   height: auto;
   width: 100%;
-  padding-top: 35px;
+  padding-top: 5px;
   padding-bottom: 20px;
 }
 
 .blending-background{
-  background-color: #015871;
+  background: linear-gradient(to bottom, #015871, #015871 );
 }
+
+.gradient-blending-background {
+  background: linear-gradient(to bottom, #015871 , #fff );
+}
+
+.smooth-gradient-blending-background {
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(bottom, #fff 0%, #015871 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(bottom, #fff 0%, #015871 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(bottom, #fff 0%, #015871 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fff), color-stop(1, #015871));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, #015871 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to top, #fff 0%, #015871 100%);
+  }
 
 .deep-intro-text{
   padding: 20px;
-    font-size:46px;
-    font-family "Roboto Mono";
-    color: #034949;
+  font-size:46px;
+  font-family "Roboto Mono";
+  color: #034949;
 }
 
 .portfolio-container{
@@ -926,4 +987,43 @@ pm-0{
 .top-no-margin-padding{
   margin-top: 0px;
   padding-top: 0px;
+}
+
+.bottom-footer{
+
+}
+
+.bottom-footer h6{
+  margin: 0;
+  text-align: left;
+}
+
+.bottom-footer p{
+  margin: 0;
+  text-align: left;
+}
+.bottom-footer .col-sm-p{
+  margin: 0;
+  text-align: left;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 100px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.cardshadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.behindslider {
+  posittion:absolute;
+  z-index: 5;
+  width: 100%;
+  height: 25%;
 }

@@ -14,20 +14,26 @@
     <link href="demo/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="demo/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
 
     <!-- Plugin CSS -->
     <link href="demo/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/controlledslider.css" rel="stylesheet">
+    <link href="css/submarine.scss" rel="stylesheet">
+    <link href="css/socialicons.css" rel="stylesheet">
     <link href="css/parallax.css" rel="stylesheet">
     <link href="css/slider.css" rel="stylesheet">
     <link href="css/underwater.css" rel="stylesheet">
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/mainbutton.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="icons/entypo.css">
   </head>
@@ -107,7 +113,7 @@
               <div class="text-holder">
                <h2>Dive </h2> <h1> Deep </h1> <h2>Into Data</h2>
                <p>Data entry and exploration platform</p>
-               <a type="button" class="btn btn-outline btn-lg" href='#about'>Create an account</a>
+               <a class="btn btn-outline btn-lg" href='#about'>Create an account</a>
              </div>
             </div>
               <!-- <p>Create Projects and design analysis. Collect and Collate data sources. Structure and Curate data.
@@ -121,20 +127,50 @@
               <div class="col-lg-8 mx-auto text-center">
                 <h2 class="section-heading deep-intro-text" style = "color: #fff"> A Data Analyzing Platform</h2>
               </div>
-          </div>
-          <div class="deep-intro">
-                <div class="col-lg-8 mx-auto text-center">
-                  <hr class="primary my-4">
-                  <p class="mb-4">A robust, adaptive This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph</p>
-                </div>
+              <div class="col-lg-8 mx-auto text-center">
+                  <h6 class="mb-4" style="color: #fff">A robust, adaptive This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph This is a sub paragraph</h6>
+              </div>
+              </div>
             </div>
-            <div class="relative-slider-container">
+
+
+        <!-- <div class="curve curve03"></div> -->
+
+
+        <div class="relative-slider-container">
+              <div class="blending-background behindslider">
+              </div>
+              <div class="abs-slider-container">
+                  <ul class="images">
+                   <li>
+                      <img src="images/ui1.png"/>
+                   </li>
+                   <li>
+                      <img src="images/ui2.png" />
+                   </li>
+                    <li>
+                      <img src="images/ui3.png" />
+                   </li>
+                  </ul>
+                  <ul class="triggers">
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                  </ul>
+              </div>
+          </div>
+              <!-- <div class="abs-slider-container">
                 <div class='slider'>
                   <div class='slide1'></div>
                   <div class='slide2'></div>
                   <div class='slide3'></div>
                 </div>
-              </div>
+              </div> -->
+            </div>
+
+
+
+
 
 
     <!-- <header style="height: 100%;">
@@ -514,7 +550,7 @@
     </section> -->
 
 
-    <section>
+    <section class = "medium-padding">
       <div class="container ">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -591,6 +627,41 @@
     </div>
   </div>
     </section>
+
+    <section class = "medium-padding bg-dark bottom-footer">
+      <div class="container-fluid full-width pm-0">
+        <div class="row">
+          <div class= "col-lg-4 col-sm-0">
+          </div>
+          <div class="col-lg-2 col-sm-4 text-center">
+                  <h6 class="bold">About Us</h6>
+                  <p> Features </p>
+                  <p> Plans</p>
+                  <p> Impact Grants </p>
+          </div>
+          <div class="col-lg-2 col-sm-4 text-center">
+                  <h6 class="bold">Company</h6>
+                  <p> About Us </p>
+                  <p> Blog</p>
+                  <p> Jobs </p>
+                  <p> Services </p>
+          </div>
+          <div class="col-lg-4 col-sm-4 text-">
+                  <h6 class="bold">Get in touch:</h6>
+                  <span class="pull-left" style = "margin-top: 20px;">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-google"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-reddit"></a>
+                  </span>
+          </div>
+          <!-- <div class="col-lg-2 col-sm-0 text-center">
+          </div> -->
+        </div>
+      </div>
+    </section>
+
 
 
 
@@ -807,13 +878,22 @@
     <script src="demo/jquery-easing/jquery.easing.min.js"></script>
     <script src="demo/scrollreveal/scrollreveal.min.js"></script>
     <script src="demo/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
 
     <!-- Custom scripts for this template -->
+    <script src="js/controlledslider.js"
     <script src="js/waves.js"></script>
     <script src="js/creative.min.js"></script>
     <script src='js/hammer.min.js'></script>
     <script src='js/slider.js'></script>
-
+    <script>
+    $(document).ready(function () {
+      $('.flexslider').flexslider({
+        animation: 'fade',
+        controlsContainer: '.flexslider'
+      });
+    });
+</script>
     <script>
     window.onresize = function(event) {
       var x=$(window).width();
