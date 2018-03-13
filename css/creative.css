@@ -1161,3 +1161,9 @@ pm-0{
 .feature-element05 {
   background-image: url("../images/ico05.svg");
 }
+
+@media (max-width: 720px) {
+.only-large-screens {
+display: none;
+}
+}
