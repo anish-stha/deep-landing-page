@@ -403,7 +403,7 @@ header.masthead {
 }
 
 .boat {
-  background-image: url("../images/underwater02.svg");
+  background-image: url("../images/boat.svg");
   position: relative;
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
@@ -1077,7 +1077,7 @@ pm-0{
 }
 
 .container-img1{
-  background-image: url("../images/underwater01.svg");
+  background-image: url("../images/u.svg");
 }
 
 .container-img2{
