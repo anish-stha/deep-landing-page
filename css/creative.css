@@ -35,13 +35,13 @@ hr.primary {
   hr.dark {
     border-color: #0F1011; }
 
-a {
+.alink {
   color: #F05F40;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
-  a:hover {
-    color: #f05f40; }
+  .alink:hover {
+    color: #0B8282; }
 
 h1,
 h2,
